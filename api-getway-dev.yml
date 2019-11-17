@@ -1,3 +1,7 @@
+spring:
+  redis:
+    host: 192.168.1.105
+    port: 6379
 zuul:
   #忽略全部服务敏感头（全部服务都可传递cookie）
   sensitive-headers: 
