@@ -19,7 +19,3 @@ spring:
       percentage: 1
   jpa:
     show-sql: true
-# 把 org.springframework.cloud.netflix.feign包 调整日志级别
-logging:
-  level:
-    org.springframework.cloud.netflix.feign: debug
