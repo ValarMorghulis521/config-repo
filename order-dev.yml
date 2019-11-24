@@ -19,22 +19,12 @@ spring:
   sleuth:
     sampler:
       percentage: 1
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000
-feign:
-  hystrix:
-    enable: true
 management:
   context-path: /
 # 把 org.springframework.cloud.netflix.feign包 调整日志级别
 logging:
   level:
-    org.springframework.cloud.netflix.feign: debug
+    org.springframework.cloud.openfeign: debug
 #用来设置feign超时，springcloud 1.0的版本没有这个设置
 feign:
   client:
