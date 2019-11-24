@@ -5,10 +5,10 @@ spring:
     password: 123456
     url: jdbc:mysql://192.168.43.43:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
   redis:
-    host: 192.168.1.104
+    host: 192.168.43.209
     port: 6379
   rabbitmq:
-    host: 192.168.1.104
+    host: 192.168.43.209
     port: 5672
     username: guest
     password: guest
