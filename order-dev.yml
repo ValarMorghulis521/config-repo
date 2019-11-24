@@ -18,7 +18,7 @@ spring:
     base-url: http://zipkin:9411/
   sleuth:
     sampler:
-      percentage: 1
+      probability: 1
 management:
   context-path: /
 # 把 org.springframework.cloud.netflix.feign包 调整日志级别
