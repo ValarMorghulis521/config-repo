@@ -27,6 +27,8 @@ logging:
     org.springframework.cloud.openfeign: debug
 #用来设置feign超时，springcloud 1.0的版本没有这个设置
 feign:
+  hystrix:
+    enable: true
   client:
     config:
       default:
