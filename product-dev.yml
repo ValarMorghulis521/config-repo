@@ -16,6 +16,6 @@ spring:
     base-url: http://zipkin:9411/
   sleuth:
     sampler:
-      percentage: 1
+      probability: 1
   jpa:
     show-sql: true
