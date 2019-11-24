@@ -19,4 +19,3 @@ spring:
       percentage: 1
   jpa:
     show-sql: true
-env: dev
