@@ -14,6 +14,8 @@ spring:
     password: guest
   zipkin:
     base-url: http://192.168.43.209:9411/
+    sender:
+      type: web
   sleuth:
     sampler:
       probability: 1
